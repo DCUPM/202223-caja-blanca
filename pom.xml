@@ -16,7 +16,13 @@
 	</properties>
 
 	<dependencies>
-		
+		<dependency>
+			<groupId>com.cajanegra</groupId>
+			<artifactId>CajaNegra22-23</artifactId>
+			<version>0.0.1</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/SingleList.jar</systemPath>
+		</dependency>
 	</dependencies>
 	<build>
 		<pluginManagement>
